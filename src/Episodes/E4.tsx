@@ -11,7 +11,7 @@ type Arr2 = string[];
 type Arr3 = (number | string)[];
 type ArrFull = (number | string | boolean)[];
 
-type User2 = { name: string; age: number };
+export type User2 = { name: string; age: number };
 
 const E4 = (props: Props) => {
   const numFirst = 5;
