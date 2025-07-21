@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .djac {
+    @apply flex justify-center items-center;
+  }
+  .djbac {
+    @apply flex justify-between items-center;
+  }
+  .dcjac {
+    @apply flex flex-col justify-center items-center;
+  }
+  .dcjbac {
+    @apply flex flex-col justify-between items-center;
+  }
+  .fullCenter {
+    @apply h-screen flex justify-center items-center;
+  }
+  .fullCenterCol {
+    @apply h-screen flex flex-col justify-center items-center;
+  }
+}
