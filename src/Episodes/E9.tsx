@@ -1,5 +1,5 @@
 import React from 'react'
-import AnswerSum from './AnswerSum';
+// import AnswerSum from './AnswerSum';
 
 type Props = {}
 
@@ -8,7 +8,9 @@ const E9: React.FC<Props> = (props) => {
     const sum = (num1: number, num2: number): number => num1 + num2;
     
   return (
-    <div className='fullCenterCol'>{<AnswerSum sum={sum} />}</div>
+    <div className='fullCenterCol'>
+        {/* {<AnswerSum sum={sum} />} */}
+    </div>
   )
 }
 
