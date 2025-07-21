@@ -3,7 +3,7 @@ import AnswerSum from './AnswerSum';
 
 type Props = {}
 
-const E9: React.FC<Props> = (props) => {
+const E10: React.FC<Props> = (props) => {
     
     const sum = (num1: number, num2: number): number => num1 + num2;
     
@@ -12,4 +12,4 @@ const E9: React.FC<Props> = (props) => {
   )
 }
 
-export default E9;
+export default E10;
