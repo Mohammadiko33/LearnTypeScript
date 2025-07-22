@@ -1,8 +1,15 @@
-import type { ComponentProps } from "react";
+import type { ComponentProps , ComponentPropsWithRef , ComponentPropsWithoutRef } from "react";
 
 type Props = ComponentProps<"button">
+type PropsWithRef = ComponentPropsWithRef<"button">
+type PropsNoRef = ComponentPropsWithoutRef<"button">
 
-// برای اینکه ما بخایم از پراپ های خود باتن استفاده کنیم توی پراپ باید به شکل زیر عمل کنیم
+// Ref = رف
+// اگه ما بخایم از پراپ رف استفاده نکنیم بهتره که از
+// ComponentPropsWithoutRef استفاده بکنیم 
+// ولی اگه خاستیم از رف استفاده کنیم از این دوتا زیر میشه استفاده کرد
+// ComponentProps && ComponentPropsWithRef
+
 
 type ButtonProps = ComponentProps<"button"> & {
     title?: string;
